@@ -1,0 +1,33 @@
+{
+  "public": true,
+  "name": "@webcarrot/copy-declaration-ts",
+  "version": "1.0.0",
+  "description": "Copy `*.d.ts` files from source directory into build/dist directory",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webcarrot/copy-declaration-ts.git"
+  },
+  "bin": {
+    "copy-declaration-ts": "./index.run"
+  },
+  "keywords": [
+    "copy",
+    "declaration",
+    "typescript",
+    "declarations",
+    "d.ts"
+  ],
+  "author": {
+    "email": "admin@webcarrot.pl",
+    "name": "webcarrot"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webcarrot/copy-declaration-ts/issues"
+  },
+  "homepage": "https://github.com/webcarrot/copy-declaration-ts#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
